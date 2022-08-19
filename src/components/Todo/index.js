@@ -1,8 +1,6 @@
 import React, { memo } from 'react';
 import { RiDeleteBinLine } from 'react-icons/ri';
 
-import './todo.scss';
-
 function Todo({ todo, deleteTodoHandler }) {
   const deleteHandler = () => {
     deleteTodoHandler(todo._id);

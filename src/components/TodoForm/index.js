@@ -1,7 +1,5 @@
 import { memo } from 'react';
 
-import './todoForm.scss';
-
 function TodoForm({ input, inputChangeHandler, addTodoHandler }) {
   return (
     <form className='todos__form' onSubmit={addTodoHandler}>

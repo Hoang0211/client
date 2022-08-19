@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 
+import './App.css';
+
 import TodoForm from './components/TodoForm';
 import Todo from './components/Todo';
 
